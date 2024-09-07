@@ -14,12 +14,16 @@ public class GameplayManager : MonoBehaviour
 
     //Text box that displays choices and story
     [SerializeField] TMP_Text dialogueText;
+    [SerializeField] GameObject dialogueTextObject;
 
-    //GameObject parent that holds the location text, will appear after first scene.
-    [SerializeField] GameObject locationTextGameObject;
     //Text box that displays location in top left
     [SerializeField] TMP_Text locationText;
+    //GameObject parent that holds the location text, will appear after first scene.
+    [SerializeField] GameObject locationTextObject;
+    [SerializeField] Image speakerImage;
+    [SerializeField] GameObject speakerImageObject;
     [SerializeField] TMP_Text speakerTextName;
+    [SerializeField] GameObject speakerTextObject; 
 
     //State where the game begins, can be changed for debugging
     [SerializeField] State startingState;
@@ -36,7 +40,7 @@ public class GameplayManager : MonoBehaviour
     //Temp Background used when transitioning between scenes
     public Image nextBackground;
     //Transition time for transition speed, lower the float value the faster the transition
-    public float transitionTime = 5.0f;
+    public float transitionTime;
 
     //Temp color used for resetting alpha of backgrounds
     private Color tempColor;
@@ -44,7 +48,7 @@ public class GameplayManager : MonoBehaviour
     private bool transitionComplete = true;
 
     //State is not a state machine and is the name of the current place we are in, in the story.
-    State state;
+    [SerializeField] State state;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +56,7 @@ public class GameplayManager : MonoBehaviour
         //Starting state is assigned as the current state
         state = startingState;
         nextState = state.nextState;
+        dialogueTextObject.SetActive(true);
         //Takes the story from the current state + whatever role and put them in the text
         textWriter.SetUpWriter(dialogueText, ConstructText(), writeSpeed);
         //Background startup
@@ -90,15 +95,38 @@ public class GameplayManager : MonoBehaviour
                 nextBackground.sprite = state.background;
                 StartCoroutine(TransitionSceneArtwork(background, nextBackground));
             }
+
+            if(state.GetStateDialogue() == "")
+            {
+                dialogueTextObject.SetActive(false);
+            }
+            else 
+            {
+                dialogueTextObject.SetActive(true);
+            }
             
             if (state.locationName != "")
             {
                 locationText.text = state.locationName;
+                locationTextObject.SetActive(true);
+            }
+            else 
+            {
+                locationTextObject.SetActive(false);
             }
 
-            if (state.speakerName != "")
+            if (state.speakerName == "self")
+            {
+                speakerTextObject.SetActive(false);
+                speakerImageObject.SetActive(false);
+            }
+            else 
             {
                 speakerTextName.text = state.speakerName;
+                speakerTextObject.SetActive(true);
+
+                speakerImage.sprite = state.speakerImage;
+                speakerImageObject.SetActive(true);
             }
 
             if (state.audioClip != null)
