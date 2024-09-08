@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: 09_courthouse
+  m_EditorClassIdentifier: 
+  defaultText: '"Today?! Isn''t that too soon? I mean I haven''t had enough to to
+    get evidence..."'
+  internalThoughts: 0
+  background: {fileID: 21300000, guid: fe4ca2bf47b3f514782608807008f16b, type: 3}
+  speakerImage: {fileID: 21300000, guid: f34604895b367fd4082111606cf8ede3, type: 3}
+  speakerName: Detective
+  audioClip: {fileID: 0}
+  locationName: Courthouse
+  evidenceAcquire: 
+  nextState: {fileID: 11400000, guid: 1882f6dc56ab4ed4ea018f06c31a81e5, type: 2}

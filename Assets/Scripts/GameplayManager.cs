@@ -118,15 +118,21 @@ public class GameplayManager : MonoBehaviour
             if (state.speakerName == "self")
             {
                 speakerTextObject.SetActive(false);
-                speakerImageObject.SetActive(false);
             }
             else 
             {
                 speakerTextName.text = state.speakerName;
                 speakerTextObject.SetActive(true);
+            }
 
+            if (state.speakerImage != null)
+            {
                 speakerImage.sprite = state.speakerImage;
                 speakerImageObject.SetActive(true);
+            }
+            else 
+            {
+                speakerImageObject.SetActive(false);
             }
 
             if (state.audioClip != null)

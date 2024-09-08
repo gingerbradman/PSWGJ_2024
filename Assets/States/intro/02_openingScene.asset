@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: 02_openingScene
+  m_EditorClassIdentifier: 
+  defaultText: Sometimes I think about leaving the city. It would be a lot more peaceful.
+    Maybe start a cafe somewhere.
+  internalThoughts: 0
+  background: {fileID: 21300000, guid: 440eabc43224cbd44ad01d22cbc945fc, type: 3}
+  speakerImage: {fileID: 0}
+  speakerName: self
+  audioClip: {fileID: 0}
+  locationName: 
+  evidenceAcquire: 
+  nextState: {fileID: 11400000, guid: 1b36a38e8d16e224ca6043b2da9b5f87, type: 2}
