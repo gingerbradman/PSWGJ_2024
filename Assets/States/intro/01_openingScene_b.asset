@@ -10,15 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
-  m_Name: 06_courthouse
+  m_Name: 01_openingScene_b
   m_EditorClassIdentifier: 
-  defaultText: '"Whatever, we wouldn''t hire external help for something like this.
-    But enough yapping, take the casefile."'
+  defaultText: I am a Detective, tasked with finding the truth in a city that loves
+    secrets.
   internalThoughts: 0
   background: {fileID: 0}
-  speakerImage: {fileID: 21300000, guid: f34604895b367fd4082111606cf8ede3, type: 3}
-  speakerName: Judge Daphne
+  speakerImage: {fileID: 0}
+  speakerName: self
   audioClip: {fileID: 0}
-  locationName: Courthouse
-  evidenceAcquire: 
-  nextState: {fileID: 11400000, guid: 1d9fd7db23c69704eb8f4e669ce9230c, type: 2}
+  locationName: 
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: 8fcd76f7a9749e04c8598eea01162b8a, type: 2}
+  isTestimony: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}

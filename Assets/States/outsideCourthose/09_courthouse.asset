@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: 09_courthouse
   m_EditorClassIdentifier: 
-  defaultText: '"Today?! Isn''t that too soon? I mean I haven''t had enough to to
-    get evidence..."'
+  defaultText: '"Today?! Isn''t that too soon? I mean I haven''t had enough time
+    to get evidence..."'
   internalThoughts: 0
   background: {fileID: 21300000, guid: fe4ca2bf47b3f514782608807008f16b, type: 3}
   speakerImage: {fileID: 21300000, guid: f34604895b367fd4082111606cf8ede3, type: 3}

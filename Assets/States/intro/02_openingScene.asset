@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 02_openingScene
   m_EditorClassIdentifier: 
   defaultText: Sometimes I think about leaving the city. It would be a lot more peaceful.
-    Maybe start a cafe somewhere.
+    Maybe start a cafe.
   internalThoughts: 0
   background: {fileID: 21300000, guid: 440eabc43224cbd44ad01d22cbc945fc, type: 3}
   speakerImage: {fileID: 0}

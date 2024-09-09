@@ -14,9 +14,14 @@ public class State : ScriptableObject
     public string speakerName;
     public AudioClip audioClip;
     public string locationName;
-    public string evidenceAcquire;
+    public List<Evidence> evidenceAcquire;
     public State nextState;
 
+    public bool isTestimony;
+    public int correctChoice;
+    public Evidence correctEvidence;
+    public List<string> choices;
+    public State errorState;
 
     public string GetStateDialogue()
     {

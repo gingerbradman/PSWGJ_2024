@@ -16,7 +16,7 @@ MonoBehaviour:
     later today."'
   internalThoughts: 0
   background: {fileID: 0}
-  speakerImage: {fileID: 21300000, guid: f34604895b367fd4082111606cf8ede3, type: 3}
+  speakerImage: {fileID: 0}
   speakerName: Judge Daphne
   audioClip: {fileID: 0}
   locationName: Courthouse
