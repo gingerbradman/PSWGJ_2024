@@ -12,13 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: 11_courthouse
   m_EditorClassIdentifier: 
-  defaultText: '"As for evidence, this file should have some initial evidence. It''ll
-    be up to you to find who is responsible."'
+  defaultText: '"As for evidence, this case file should have some initial clues.
+    It''ll be up to you to find who is responsible and add more findings."'
   internalThoughts: 0
   background: {fileID: 0}
   speakerImage: {fileID: 21300000, guid: bd8e9f1e4b802874880d767547f23c0c, type: 3}
   speakerName: Judge Daphne
   audioClip: {fileID: 0}
   locationName: Courthouse
-  evidenceAcquire: 
-  nextState: {fileID: 11400000, guid: 8481998074dbf7444a86205b7f62b8ae, type: 2}
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: 828c96d46964ef94aa80aa020e39dfa6, type: 2}
+  isTestimony: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}

@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   evidenceImage: {fileID: 0}
   evidenceName: Camera Logs
-  evidenceDescription: gqewf
+  evidenceDescription: 'Camera Logs of Mr. Bodi''s door. Shows he was visited five
+    times: Ms. Flay from 7:00 to 7:20. Mr. Graves from 8:00 to 8:13. Mr. Banks from
+    8:15 to 8:30. A powerwasher in uniform from 9:00 to 9:30. Ms. Flay from 9:50
+    to 9:52.'

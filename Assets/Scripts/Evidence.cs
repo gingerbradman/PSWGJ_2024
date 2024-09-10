@@ -7,6 +7,6 @@ public class Evidence : ScriptableObject
 {
     public Sprite evidenceImage;
     public string evidenceName;
-    public string evidenceDescription;
+    [TextArea(14,10)] public string evidenceDescription;
 
 }

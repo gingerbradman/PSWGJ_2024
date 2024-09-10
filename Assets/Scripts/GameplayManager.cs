@@ -9,6 +9,8 @@ using System.Linq;
 
 public class GameplayManager : MonoBehaviour
 {
+    [SerializeField] private bool debugMode;
+    [SerializeField] private List<Evidence> debugEvidence;
     [SerializeField] private float writeSpeed = 0.001f;
     [SerializeField] TextWriter textWriter;
     [SerializeField] TestimonyManager testimonyManager;
@@ -65,6 +67,11 @@ public class GameplayManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(debugMode)
+        {
+            evidenceInCaseFile = debugEvidence;
+        }
+
         //Starting state is assigned as the current state
         state = startingState;
         nextState = state.nextState;

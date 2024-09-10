@@ -709,6 +709,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbd6a7cd5156a14b8dd7ccd58e8008f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugMode: 0
+  debugEvidence:
+  - {fileID: 11400000, guid: c4fb62bc1a5b096448c4b625153e5e5e, type: 2}
+  - {fileID: 11400000, guid: 7d594e36a1198524ca37842d5e3d6d7f, type: 2}
+  - {fileID: 11400000, guid: f8c08fc117dcad34f829721be0ffaf02, type: 2}
+  - {fileID: 11400000, guid: b059436ef0d70ad4aab58fa7723ab05a, type: 2}
+  - {fileID: 11400000, guid: 3000d121fe3c03f449cf52fdec2a5710, type: 2}
   writeSpeed: 0.06
   textWriter: {fileID: 1251111591}
   testimonyManager: {fileID: 1826907466}
@@ -3907,8 +3914,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

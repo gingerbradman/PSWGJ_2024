@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: 00_megamart
+  m_EditorClassIdentifier: 
+  defaultText: Hmm, so this is the megamart on the other side of town.
+  internalThoughts: 0
+  background: {fileID: 21300000, guid: 93715759639c9284a9962efec746075f, type: 3}
+  speakerImage: {fileID: 0}
+  speakerName: self
+  audioClip: {fileID: 0}
+  locationName: Megamart
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: 320daf62ec1849b4ca33356e085dc59d, type: 2}
+  isTestimony: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}

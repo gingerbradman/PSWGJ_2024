@@ -19,5 +19,10 @@ MonoBehaviour:
   speakerName: Detective
   audioClip: {fileID: 0}
   locationName: Courthouse
-  evidenceAcquire: 
-  nextState: {fileID: 0}
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: 73339ae3158058d499b39994d8729e41, type: 2}
+  isTestimony: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}
