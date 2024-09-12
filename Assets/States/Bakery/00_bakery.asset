@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
-  m_Name: 19_megamart
+  m_Name: 00_bakery
   m_EditorClassIdentifier: 
-  defaultText: Next stop, Capentry Co.
+  defaultText: Oh! This looks nice.
   internalThoughts: 0
-  background: {fileID: 21300000, guid: 54956af5f5be79446b69880035027fdc, type: 3}
+  background: {fileID: 21300000, guid: 75df7282c1b8c2d4396cff2e37787cc3, type: 3}
   speakerImage: {fileID: 0}
   speakerName: self
   audioClip: {fileID: 0}
-  locationName: 
+  locationName: Bakery
   evidenceAcquire: []
-  nextState: {fileID: 11400000, guid: c6b8d7b0661823a4d9121394655d7b92, type: 2}
+  nextState: {fileID: 11400000, guid: 8f9dd8677a92a234fa900304831da3f6, type: 2}
   isTestimony: 0
   correctChoice: 0
   correctEvidence: {fileID: 0}

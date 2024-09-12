@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 417fff049686bc545a5ccfbe1f18cb7a, type: 3}
-  m_Name: Bloody Knife
+  m_Name: Sue's Account
   m_EditorClassIdentifier: 
-  evidenceImage: {fileID: 0}
-  evidenceName: Bloody Knife
-  evidenceDescription: Bloody kitchen knife. No fingerprints. Has the name "Flay"
-    written into the wooden handle. Owned by the victim.
+  evidenceImage: {fileID: 21300000, guid: de558358477617e42864c75b2feb60ab, type: 3}
+  evidenceName: Sue's Account
+  evidenceDescription: '"Mr. Bodi would always waste my time in life. He''s so good
+    at it, he can do it deceased."'

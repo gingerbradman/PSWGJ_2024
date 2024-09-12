@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
-  m_Name: 19_megamart
+  m_Name: 07_powerwash
   m_EditorClassIdentifier: 
-  defaultText: Next stop, Capentry Co.
+  defaultText: Oh! There's a box by the door...
   internalThoughts: 0
-  background: {fileID: 21300000, guid: 54956af5f5be79446b69880035027fdc, type: 3}
+  background: {fileID: 0}
   speakerImage: {fileID: 0}
   speakerName: self
   audioClip: {fileID: 0}
-  locationName: 
+  locationName: Powerwash Capital
   evidenceAcquire: []
-  nextState: {fileID: 11400000, guid: c6b8d7b0661823a4d9121394655d7b92, type: 2}
+  nextState: {fileID: 11400000, guid: e564295e9251dad4fb8c638a6b0a87b0, type: 2}
   isTestimony: 0
   correctChoice: 0
   correctEvidence: {fileID: 0}

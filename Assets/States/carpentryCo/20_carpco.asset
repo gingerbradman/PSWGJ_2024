@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
-  m_Name: 19_megamart
+  m_Name: 20_carpco
   m_EditorClassIdentifier: 
-  defaultText: Next stop, Capentry Co.
+  defaultText: '"I went to Buddy for a loan. And I''m real embarrased about it. He
+    used to be my boss, you know."'
   internalThoughts: 0
-  background: {fileID: 21300000, guid: 54956af5f5be79446b69880035027fdc, type: 3}
-  speakerImage: {fileID: 0}
-  speakerName: self
+  background: {fileID: 0}
+  speakerImage: {fileID: 21300000, guid: dd3fd5e726bf46442b3ced8dafc00864, type: 3}
+  speakerName: Doug
   audioClip: {fileID: 0}
-  locationName: 
+  locationName: Carpentry Co.
   evidenceAcquire: []
-  nextState: {fileID: 11400000, guid: c6b8d7b0661823a4d9121394655d7b92, type: 2}
+  nextState: {fileID: 11400000, guid: 9061da0422ded714ebf8f79750f43ff9, type: 2}
   isTestimony: 0
   correctChoice: 0
   correctEvidence: {fileID: 0}

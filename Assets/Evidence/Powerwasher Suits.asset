@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 417fff049686bc545a5ccfbe1f18cb7a, type: 3}
-  m_Name: Bloody Knife
+  m_Name: Powerwasher Suits
   m_EditorClassIdentifier: 
   evidenceImage: {fileID: 0}
-  evidenceName: Bloody Knife
-  evidenceDescription: Bloody kitchen knife. No fingerprints. Has the name "Flay"
-    written into the wooden handle. Owned by the victim.
+  evidenceName: Powerwash Suits
+  evidenceDescription: Powerwash suits that Captial Powerwash was returning. Left
+    outside. Their green color didn't match their brand of blue. Completely covers
+    whoever wears it.

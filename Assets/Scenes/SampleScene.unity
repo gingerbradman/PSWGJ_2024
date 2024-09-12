@@ -709,12 +709,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbd6a7cd5156a14b8dd7ccd58e8008f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugMode: 0
+  debugMode: 1
   debugEvidence:
   - {fileID: 11400000, guid: c4fb62bc1a5b096448c4b625153e5e5e, type: 2}
   - {fileID: 11400000, guid: 7d594e36a1198524ca37842d5e3d6d7f, type: 2}
   - {fileID: 11400000, guid: f8c08fc117dcad34f829721be0ffaf02, type: 2}
+  - {fileID: 11400000, guid: ee553842793281c43b06eb16105fbade, type: 2}
+  - {fileID: 11400000, guid: 52645a6ef588a27448598b2ebcf2da74, type: 2}
+  - {fileID: 11400000, guid: d2b6546c29a2ec2449eaeb8e2ddd5c74, type: 2}
   - {fileID: 11400000, guid: b059436ef0d70ad4aab58fa7723ab05a, type: 2}
+  - {fileID: 11400000, guid: 33471cf8e2b491b44953e271ead9cad7, type: 2}
   - {fileID: 11400000, guid: 3000d121fe3c03f449cf52fdec2a5710, type: 2}
   writeSpeed: 0.06
   textWriter: {fileID: 1251111591}
@@ -728,7 +732,7 @@ MonoBehaviour:
   speakerTextName: {fileID: 800917554}
   speakerTextObject: {fileID: 1064599750}
   selectEvidenceObject: {fileID: 1194893163}
-  startingState: {fileID: 11400000, guid: ddaf2625f1af457478536721c64062dc, type: 2}
+  startingState: {fileID: 11400000, guid: 826dafcaf326f6a47b8f4c8e889ac13e, type: 2}
   nextState: {fileID: 0}
   evidence: []
   audioSource: {fileID: 0}

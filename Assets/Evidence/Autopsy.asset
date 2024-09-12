@@ -15,5 +15,5 @@ MonoBehaviour:
   evidenceImage: {fileID: 0}
   evidenceName: Autopsy
   evidenceDescription: 'Victim is Buddy Bodi. Cause of death: Multiple Stab Wounds.
-    Time of death: Sometime between 7:00 p.m. and 10:00 p.m. Various scratches cover
-    his body that were made posthumously.'
+    Time of death: Sometime between 7:00 p.m. and 10:00 p.m. yesterday on Saturday.
+    Various scratches cover his body that were made posthumously.'
