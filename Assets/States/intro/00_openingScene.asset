@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultText: Press "Space" to advance the dialogue.
   internalThoughts: 0
-  background: {fileID: 21300000, guid: 54956af5f5be79446b69880035027fdc, type: 3}
+  background: {fileID: 21300000, guid: 6635b1ae4e33be14aac42ca2937affc3, type: 3}
   speakerImage: {fileID: 0}
   speakerName: self
   audioClip: {fileID: 0}
   locationName: 
-  evidenceAcquire: 
+  evidenceAcquire: []
   nextState: {fileID: 11400000, guid: a2e94882f1c018c4384dd78a0e12a1b9, type: 2}
+  isTestimony: 0
+  isStressed: 0
+  isMultipleChoice: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}

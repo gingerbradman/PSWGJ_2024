@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: 53_court
+  m_EditorClassIdentifier: 
+  defaultText: 
+  internalThoughts: 0
+  background: {fileID: 0}
+  speakerImage: {fileID: 21300000, guid: 49fcf35e15aa0f54ba6da2d702301caa, type: 3}
+  speakerName: self
+  audioClip: {fileID: 0}
+  locationName: Courtroom
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: b7d6db73dc6eb0f488a97f2e0bbb315b, type: 2}
+  isTestimony: 0
+  isStressed: 0
+  isMultipleChoice: 1
+  correctChoice: 1
+  correctEvidence: {fileID: 0}
+  choices:
+  - Nothing was taken.
+  - Mr. Bodi didn't have have any money.
+  - Mr. Bodi loaned his money away.
+  errorState: {fileID: 11400000, guid: faa8debf1400d214c971891bf18cb0ea, type: 2}

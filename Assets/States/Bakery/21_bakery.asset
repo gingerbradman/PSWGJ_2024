@@ -20,7 +20,7 @@ MonoBehaviour:
   audioClip: {fileID: 0}
   locationName: Bakery
   evidenceAcquire: []
-  nextState: {fileID: 0}
+  nextState: {fileID: 11400000, guid: f99a954b81b8f5c479e368f1034ccb99, type: 2}
   isTestimony: 0
   correctChoice: 0
   correctEvidence: {fileID: 0}

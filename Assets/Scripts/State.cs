@@ -18,6 +18,8 @@ public class State : ScriptableObject
     public State nextState;
 
     public bool isTestimony;
+    public bool isStressed;
+    public bool isMultipleChoice;
     public int correctChoice;
     public Evidence correctEvidence;
     public List<string> choices;

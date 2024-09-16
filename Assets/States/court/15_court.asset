@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: 15_court
+  m_EditorClassIdentifier: 
+  defaultText: '"I think if anyone would look at just the evidence, it would llok
+    like you killed Mr. Bodi yesterday."'
+  internalThoughts: 0
+  background: {fileID: 0}
+  speakerImage: {fileID: 21300000, guid: 98c73bab80a88264c83984b2bf46712c, type: 3}
+  speakerName: Detective
+  audioClip: {fileID: 0}
+  locationName: Courtroom
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: 58e5c874f2d9d8b4793ddc8349e020e2, type: 2}
+  isTestimony: 0
+  isStressed: 0
+  isMultipleChoice: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}

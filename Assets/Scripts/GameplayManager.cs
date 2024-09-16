@@ -14,6 +14,7 @@ public class GameplayManager : MonoBehaviour
     [SerializeField] private float writeSpeed = 0.001f;
     [SerializeField] TextWriter textWriter;
     [SerializeField] TestimonyManager testimonyManager;
+    [SerializeField] MultipleChoiceManager multipleChoiceManager;
 
     //Text box that displays choices and story
     [SerializeField] TMP_Text dialogueText;
@@ -110,6 +111,10 @@ public class GameplayManager : MonoBehaviour
             if (state.isTestimony)
             {
                 PrepareTestimony();
+            }
+            else if (state.isMultipleChoice)
+            {
+                PrepareMultipleChoice();
             }
             else
             {
@@ -212,11 +217,19 @@ public class GameplayManager : MonoBehaviour
         }
     }
 
+    private void PrepareMultipleChoice()
+    {
+        dialogueTextObject.SetActive(false);
+        locationTextObject.SetActive(false);
+        multipleChoiceManager.StartMultipleChoice(state.choices);     
+    }
+
     private void PrepareTestimony()
     {
         dialogueTextObject.SetActive(false);
         locationTextObject.SetActive(false);
         selectEvidenceObject.SetActive(true);
+        testimonyManager.stressed = state.isStressed;
         testimonyManager.StartTestimony(state.choices);
     }
 
@@ -243,6 +256,22 @@ public class GameplayManager : MonoBehaviour
 
         selectEvidenceObject.SetActive(false);
         testimonyManager.EndTestimony();
+    }
+
+    public void CheckMultipleChoice(int choice)
+    {
+        if(choice == state.correctChoice)
+        {
+            GoToNextState();
+            PrepareState();
+        }
+        else 
+        {
+            GoToErrorState();
+            PrepareState();
+        }
+
+        multipleChoiceManager.EndMultipleChoice();
     }
 
     private void ShowCaseFile(bool x)

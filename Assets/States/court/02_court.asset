@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: 02_court
+  m_EditorClassIdentifier: 
+  defaultText: '"Detective, I hope you know what you are doing."'
+  internalThoughts: 0
+  background: {fileID: 0}
+  speakerImage: {fileID: 21300000, guid: f34604895b367fd4082111606cf8ede3, type: 3}
+  speakerName: Judge Daphne
+  audioClip: {fileID: 0}
+  locationName: Courtroom
+  evidenceAcquire: []
+  nextState: {fileID: 11400000, guid: bd2fcf7e74ca8e449aeadd27d16b9c58, type: 2}
+  isTestimony: 0
+  isStressed: 0
+  isMultipleChoice: 0
+  correctChoice: 0
+  correctEvidence: {fileID: 0}
+  choices: []
+  errorState: {fileID: 0}
