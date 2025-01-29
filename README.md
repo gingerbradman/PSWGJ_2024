@@ -1,4 +1,4 @@
-# MJ161_Style
+# PSWGJ_2024
 
 Visual novel detective-noir. Discover, investigate, and uncover a murder in New New Orleans!
 
