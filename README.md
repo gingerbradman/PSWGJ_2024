@@ -2,6 +2,8 @@
 
 Visual novel detective-noir. Discover, investigate, and uncover a murder in New New Orleans!
 
+Play it here: https://gingerbradman.itch.io/noirleans
+
 ![game](https://github.com/gingerbradman/portfolio/blob/master/static/clips/noirleans_clip.webp)
 
 ## Details
