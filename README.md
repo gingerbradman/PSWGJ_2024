@@ -13,9 +13,4 @@ Developed in Unity. Art edited in Aseprite. Most of the Art is comprised of phot
 
 Game Submission for the PSW 2024 Game Jam. Solo developed by Gingerbradman (https://github.com/gingerbradman)
 
-## Art
-
-* Art by Bumperbunnies
-
-
 ----
